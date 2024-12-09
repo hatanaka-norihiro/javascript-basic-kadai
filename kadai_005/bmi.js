@@ -2,5 +2,11 @@
 let weightVlue = 68;
 //身長
 let heightValue = 1.7;
+//BMI
+let bmiValue = 0;
+
 //BMIの算出
-console.log(weightVlue /(heightValue * heightValue));
+bmiValue = weightVlue /(heightValue * heightValue);
+
+//BMIの表示
+console.log(bmiValue);
